@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./YOUR_REPOSITORY_NAME",
+  base: "./Ilyasafn.github.io",
   plugins: [react()],
 });
