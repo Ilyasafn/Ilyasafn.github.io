@@ -25,8 +25,8 @@ const Portofolio = () => {
   ];
   return (
     <div className="flex flex-col justify-center items-center space-y-4">
-      <div className="text-center md:max-w-3xl max-w-lg w-full space-y-2">
-        <h2 className="font-bold text-5xl">Portofolio</h2>
+      <div className="text-center md:max-w-3xl sm:max-w-lg max-w-sm w-full space-y-2">
+        <h2 className="font-bold md:text-5xl text-4xl ">Portofolio</h2>
         <div className="text-justify text-sm">
           <p>Berikut adalah beberapa hasil karya yang telah saya buat selama ini, walau tidak seberapa setidak nya saya telah kuat melawan rasa malas yang membara di dalam diri saya.</p>
         </div>

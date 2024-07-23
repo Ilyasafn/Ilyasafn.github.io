@@ -4,11 +4,11 @@ const Home = () => {
       <div className="flex flex-col justify-center items-center flex-1 space-y-4">
         {/* Data Diri */}
         <div className="flex flex-col justify-center items-center ">
-          <h1 className="font-semibold text-5xl">Hallo Dunia!</h1>
-          <h4 className="text-2xl">Saya Ilyas Al Furqon,</h4>
-          <h2 className="font-bold text-3xl">Software Engineer Student;</h2>
+          <h1 className="font-semibold md:text-5xl text-4xl">Hallo Dunia!</h1>
+          <h4 className="md:text-2xl text-xl">Saya Ilyas Al Furqon,</h4>
+          <h2 className="font-bold md:text-3xl text-2xl">Software Engineer Student;</h2>
         </div>
-        <div className=" max-w-3xl space-y-1 text-md text-justify mb-5">
+        <div className="md:max-w-2xl max-w-prose w-full space-y-1 text-md text-justify mb-5">
           <p>
             Halo! Nama saya Ilyas Al Furqon, seorang mahasiswa semester awal jurusan Application Software Engineering di LP3I Balikpapan. Saat ini, saya sedang belajar dasar-dasar pemrograman dan memiliki sedikit pengalaman dalam coding.
             Saya sangat berambisi untuk terus belajar dan mengembangkan keterampilan saya di bidang teknologi dan pengembangan perangkat lunak.
@@ -22,7 +22,7 @@ const Home = () => {
         {/* Data Diri END */}
 
         {/* Skill Progress */}
-        <div className="md:grid grid-cols-2 justify-items-stretch gap-4 ">
+        <div className="sm:grid grid-cols-2 justify-items-stretch gap-4 ">
           {/* FrontEnd */}
           <div className="overflow-x-auto">
             <table className="table ">
