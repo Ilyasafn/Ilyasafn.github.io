@@ -4,7 +4,7 @@ const PortoCard = (props) => {
   const { project, desc } = props;
   return (
     <div className="flex flex-1 justify-center">
-      <div className="card bg-base-100 w-64 shadow-lg">
+      <div className="card bg-base-100 w-52 shadow-lg">
         <figure>
           <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="" />
         </figure>
