@@ -7,11 +7,8 @@ const Contact = () => {
     <div className="flex flex-1 flex-col justify-center items-center space-y-3">
       <div className="text-center max-w-3xl space-y-2">
         <h2 className="font-bold text-5xl">Kontak</h2>
-        <div className="text-justify ">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur exercitationem atque inventore eligendi animi delectus alias quis expedita perferendis sint dolorum provident, laboriosam obcaecati similique. Distinctio ab
-            ullam unde animi.
-          </p>
+        <div className="text-justify text-sm">
+          <p>Jika Anda ingin menghubungi saya untuk pertanyaan, kolaborasi, atau sekadar berbagi informasi, jangan ragu untuk menghubungi saya melalui kotak pesan berikut. Saya sangat terbuka untuk diskusi dan kesempatan belajar baru.</p>
         </div>
       </div>
 

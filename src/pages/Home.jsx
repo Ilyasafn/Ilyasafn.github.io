@@ -8,12 +8,16 @@ const Home = () => {
           <h4 className="text-2xl">Saya Ilyas Al Furqon,</h4>
           <h2 className="font-bold text-3xl">Software Engineer Student;</h2>
         </div>
-        <div className=" max-w-3xl space-y-2 text-md text-justify mb-5">
-          <p className="">
-            Saya adalah Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, iure nisi. Ad, labore. Iure vero dolorem enim quidem molestias nesciunt, vitae excepturi dolore ut expedita fuga nostrum provident iste consequatur?
+        <div className=" max-w-3xl space-y-1 text-md text-justify mb-5">
+          <p>
+            Halo! Nama saya Ilyas Al Furqon, seorang mahasiswa semester awal jurusan Application Software Engineering di LP3I Balikpapan. Saat ini, saya sedang belajar dasar-dasar pemrograman dan memiliki sedikit pengalaman dalam coding.
+            Saya sangat berambisi untuk terus belajar dan mengembangkan keterampilan saya di bidang teknologi dan pengembangan perangkat lunak.
           </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim beatae deleniti dolorem quo possimus perferendis!</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>
+            Saya tertarik untuk mengeksplorasi berbagai bahasa pemrograman dan framework, serta memahami konsep-konsep penting dalam dunia IT. Saya percaya bahwa dengan semangat dan dedikasi, saya bisa mencapai impian saya menjadi seorang
+            pengembang aplikasi yang profesional.
+          </p>
+          <p>Berikut adalah beberapa keterampilan / skill yang saya kuasai.</p>
         </div>
         {/* Data Diri END */}
 
