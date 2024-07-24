@@ -5,19 +5,19 @@ const Contact = () => {
   const notify = () => toast.success("Pesan anda telah terkirim! 😊", {});
   return (
     <div className="flex flex-1 flex-col justify-center items-center space-y-3">
-      <div className="text-center md:max-w-3xl sm:max-w-lg max-w-sm w-full space-y-2">
-        <h2 className="font-bold md:text-5xl text-4xl">Kontak</h2>
-        <div className="text-justify text-sm">
+      <div className="text-center space-y-2">
+        <h2 className="font-bold md:text-5xl sm:text-4xl text-3xl">Kontak</h2>
+        <div className="max-w-[360px] sm:max-w-lg md:max-w-3xl text-md text-justify">
           <p>Jika Anda ingin menghubungi saya untuk pertanyaan, kolaborasi, atau sekadar berbagi informasi, jangan ragu untuk menghubungi saya melalui kotak pesan berikut. Saya sangat terbuka untuk diskusi dan kesempatan belajar baru.</p>
         </div>
       </div>
 
       {/* FORM */}
-      <div className="container flex  max-w-xl justify-center ">
+      <div className="container flex justify-center">
         <form>
-          <div className="grid md:grid-cols-2 grid-cols-1 sm:max-w-xl gap-2">
+          <div className="grid md:grid-cols-2 grid-cols-1 max-w-[360px] sm:max-w-lg md:max-w-3xl gap-2">
             {/* Input Nama */}
-            <label className="form-control ">
+            <label className="form-control">
               <div className="label">
                 <span className="label-text">Masukkan nama anda</span>
               </div>
@@ -27,7 +27,7 @@ const Contact = () => {
             {/* Input Nama END */}
 
             {/* Input Email  */}
-            <label className="form-control ">
+            <label className="form-control">
               <div className="label">
                 <span className="label-text">Masukkan email anda</span>
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
             <div className="label">
               <span className="label-text">Pertanyaan, diskusi, saran</span>
             </div>
-            <textarea className="textarea textarea-bordered w-[480px] h-[150px]" placeholder="Bio"></textarea>
+            <textarea className="textarea textarea-bordered h-40" placeholder="Pertanyaan, diskusi dan saran anda..."></textarea>
             <div className="flex justify-center label mt-6">
               <button type="submit" onClick={notify} className="btn btn-outline hover:btn btn-wide ">
                 Kirim
@@ -53,7 +53,7 @@ const Contact = () => {
           {/* Textarea Pertanyaan END */}
         </form>
       </div>
-      {/* FORM */}
+      {/* FORM END */}
     </div>
   );
 };
