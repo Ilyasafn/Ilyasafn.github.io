@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
   return (
-    <div className="h-screen space-y-8">
+    <div className="h-screen space-y-5">
       <Navbar />
       <Outlet />
       <Footer />
