@@ -5,12 +5,14 @@ const Contact = () => {
   const notify = () => toast.success("Pesan anda telah terkirim! 😊", {});
   return (
     <div className="flex flex-1 flex-col justify-center items-center space-y-3">
-      <div className="text-center space-y-2">
-        <h2 className="font-bold md:text-5xl sm:text-4xl text-3xl">Kontak</h2>
-        <div className="max-w-[360px] sm:max-w-lg md:max-w-3xl text-md text-justify">
-          <p>Jika Anda ingin menghubungi saya untuk pertanyaan, kolaborasi, atau sekadar berbagi informasi, jangan ragu untuk menghubungi saya melalui kotak pesan berikut. Saya sangat terbuka untuk diskusi dan kesempatan belajar baru.</p>
+      <section id="my-contact">
+        <div className="text-center space-y-2">
+          <h2 className="font-bold md:text-5xl sm:text-4xl text-3xl">Kontak</h2>
+          <div className="max-w-[360px] sm:max-w-lg md:max-w-3xl text-md text-justify">
+            <p>Jika Anda ingin menghubungi saya untuk pertanyaan, kolaborasi, atau sekadar berbagi informasi, jangan ragu untuk menghubungi saya melalui kotak pesan berikut. Saya sangat terbuka untuk diskusi dan kesempatan belajar baru.</p>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* FORM */}
       <div className="container flex justify-center">

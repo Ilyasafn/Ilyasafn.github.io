@@ -12,7 +12,7 @@ const PortoCard = (props) => {
           <h2 className="card-title ">{project}</h2>
           <p className="line-clamp-2 text-sm">{desc}</p>{" "}
           <div className="card-actions justify-center">
-            <Link to={"/pages/TesPorto"}>
+            <Link to={"./pages/TesPorto"}>
               <button className="btn btn-outline btn-sm hover:btn-sm hover:btn">Lihat detail!</button>
             </Link>
           </div>
