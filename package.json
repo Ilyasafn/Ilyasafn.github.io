@@ -17,6 +17,7 @@
     "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
