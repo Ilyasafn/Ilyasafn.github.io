@@ -1,12 +1,13 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const notify = () => toast.success("Pesan anda telah terkirim! 😊", {});
-  const form = useRef();
 
+  // Email js for Form
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -24,6 +25,8 @@ const Contact = () => {
         }
       );
   };
+  // Email js for Form
+
   return (
     <div className="flex flex-1 flex-col justify-center items-center space-y-3">
       <section id="my-contact">
@@ -44,7 +47,7 @@ const Contact = () => {
               <div className="label">
                 <span className="label-text">Masukkan nama anda</span>
               </div>
-              <input type="text" name="user_name" placeholder="..." className="input input-bordered " />
+              <input type="text" name="user_name" placeholder="..." className="input input-bordered " required />
               <div className="label"></div>
             </label>
             {/* Input Nama END */}
@@ -54,18 +57,18 @@ const Contact = () => {
               <div className="label">
                 <span className="label-text">Masukkan email anda</span>
               </div>
-              <input type="email" name="user_email" placeholder="..." className="input input-bordered " />
+              <input type="email" name="user_email" placeholder="..." className="input input-bordered " required />
               <div className="label"></div>
             </label>
             {/* Input Email END */}
           </div>
 
-          {/* Textarea Pertanyaan  */}
+          {/* Textarea Pesan  */}
           <label className="form-control">
             <div className="label">
               <span className="label-text">Pertanyaan, diskusi, saran</span>
             </div>
-            <textarea name="message" className="textarea textarea-bordered h-40" placeholder="Pertanyaan, diskusi dan saran anda..."></textarea>
+            <textarea name="message" className="textarea textarea-bordered h-40" placeholder="Pertanyaan, diskusi dan saran anda..." required></textarea>
             <div className="flex justify-center label mt-6">
               <button type="submit" onClick={notify} className="btn btn-outline hover:btn btn-wide ">
                 Kirim
@@ -73,7 +76,7 @@ const Contact = () => {
               <ToastContainer position="top-center" theme="dark" hideProgressBar={true} />
             </div>
           </label>
-          {/* Textarea Pertanyaan END */}
+          {/* Textarea Pesan END */}
         </form>
       </div>
       {/* FORM END */}
