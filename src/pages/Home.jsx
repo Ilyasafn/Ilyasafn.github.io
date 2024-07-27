@@ -4,7 +4,7 @@ const Home = () => {
       <div className="flex flex-col justify-center items-center flex-1 space-y-4">
         <article>
           {/* Data Diri */}
-          <div className="flex flex-col justify-center items-center max-w-[350px] md:max-w-full w-full ">
+          <div className="flex flex-col justify-center items-center max-w-[350px] md:max-w-full w-full">
             <h1 className="font-semibold md:text-5xl sm:text-4xl text-3xl">Hallo Dunia!</h1>
             <h4 className="md:text-2xl sm:text-xl text-lg">Saya Ilyas Al Furqon,</h4>
             <h2 className="font-bold md:text-3xl sm:text-2xl text-xl">Software Engineer Student;</h2>

@@ -5,25 +5,25 @@ const Portofolio = () => {
     {
       photos: "/img/WebPorto1st.png",
       project: "Website Profile",
-      desc: "Website profile yang saya buat waktu awal belajar coding HTML, CSS, JS.",
+      desc: "Web Portofolio ini adalah Website pertama yang saya buat sebagai website pribadi / portofolio",
       button: "/portofolio/websitepertama",
     },
     {
       photos: "/img/WebsitePorto.png",
       project: "Website Profile",
-      desc: "Website profile pertama yang saya kerjakan dengan ReactJS.",
+      desc: "Website ini adalah projek pertama yang saya kerjakan menggunakan ReactJS",
       button: "/portofolio/webprofile",
     },
     {
       photos: "/img/PHPCrud.png",
       project: "Website CRUD",
-      desc: "Website CRUD yang dibangun dengan bahasa PHP, di tujukan untuk menyelesaikan tugas kuliah.",
+      desc: "Website yang dibangun menggunakan bahasa PHP Native dan pada database nya menggunakan bahasa MySql",
       button: "/portofolio/websitecrud",
     },
     {
       photos: "/img/WebHotel.png",
       project: "Website Hotel",
-      desc: "Website Hotel ini dibangun dengan bahasa PHP, dikerjakan dengan kelompok untuk menyelesaikan tugas kuliah.",
+      desc: "Website ini dibangun menggunakan PHP Native dan Bootstrap,",
       button: "/portofolio/webhotel",
     },
   ];
