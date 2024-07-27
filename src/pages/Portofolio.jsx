@@ -3,12 +3,28 @@ import PortoCard from "../components/PortoCard";
 const Portofolio = () => {
   const portos = [
     {
+      photos: "/img/WebPorto1st.png",
       project: "Website Profile",
-      desc: "Website profile pertama yang saya kerjakan dengan niat dan usaha yang kuat.",
+      desc: "Website profile yang saya buat waktu awal belajar coding HTML, CSS, JS.",
+      button: "/portofolio/websitepertama",
     },
     {
+      photos: "/img/WebsitePorto.png",
+      project: "Website Profile",
+      desc: "Website profile pertama yang saya kerjakan dengan ReactJS.",
+      button: "/portofolio/webprofile",
+    },
+    {
+      photos: "/img/PHPCrud.png",
       project: "Website CRUD",
       desc: "Website CRUD yang dibangun dengan bahasa PHP, di tujukan untuk menyelesaikan tugas kuliah.",
+      button: "/portofolio/websitecrud",
+    },
+    {
+      photos: "/img/WebHotel.png",
+      project: "Website Hotel",
+      desc: "Website Hotel ini dibangun dengan bahasa PHP, dikerjakan dengan kelompok untuk menyelesaikan tugas kuliah.",
+      button: "/portofolio/webhotel",
     },
   ];
   return (
@@ -25,7 +41,7 @@ const Portofolio = () => {
       <section id="my-portos">
         <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 max-w-[360px] sm:max-w-lg md:max-w-3xl gap-6">
           {portos.map((porto, i) => {
-            return <PortoCard key={i} project={porto.project} desc={porto.desc} />;
+            return <PortoCard key={i} photos={porto.photos} project={porto.project} desc={porto.desc} button={porto.button} />;
           })}
         </div>
       </section>
